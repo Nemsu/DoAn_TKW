@@ -333,10 +333,16 @@ img {
   font-weight: var(--font-semi-bold);
 }
 
-.footer-description {
+.footer-desc {
   display: block;
   font-size: var(--vua-font-size);
   margin: 0.25rem 0 var(--mg-3);
+}
+
+.footer-text {
+  display: inline-block;
+  color: var(--text-color);
+  margin-bottom: var(--mg-1);
 }
 
 .footer-social {
