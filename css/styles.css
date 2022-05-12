@@ -50,6 +50,12 @@ html {
   scroll-behavior: smooth;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 /*Var Dark theme*/
 body.dark-theme {
   --title-color: #f1f3f2;
