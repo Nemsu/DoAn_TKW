@@ -1,345 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://koyji.tech/images/favicon.png"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Nhà Khôn</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://koyji.tech/images/favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-  <body>
-    <header class="l-header" id="header">
-      <nav class="nav bd-container">
-        <a href="#" class="nav-logo active-link">Nhà Khôn</a>
+  <title>Nhà Khôn</title>
+</head>
 
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#home" class="nav-link">Trang chủ</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">Giới thiệu</a>
-            </li>
-            <li class="nav-item">
-              <a href="#service" class="nav-link">Dịch vụ</a>
-            </li>
-            <li class="nav-item">
-              <a href="#price" class="nav-link">Bảng giá</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Liên hệ</a>
-            </li>
+<body>
+  <header class="l-header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav-logo active-link">Nhà Khôn</a>
 
-            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
-          </ul>
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Giới thiệu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service" class="nav-link">Dịch vụ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#price" class="nav-link">Bảng giá</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Liên hệ</a>
+          </li>
+
+          <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-moon"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--HOME-->
+    <section class="home" id="home">
+      <div class="home-container bd-container bd-grid">
+        <div class="home-data">
+          <h1 class="home-title">Nhà Khôn</h1>
+          <h2 class="home-subtitle">
+            Trung tâm IR Nhà Khôn. Giải pháp tiết kiệm <br />
+            Cho mọi gia đình.
+          </h2>
+          <a href="#" class="button">Đặt Hàng Ngay</a>
         </div>
 
-        <div class="nav-toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
+        <img src="img/alexa2.png" alt="" class="home-img" />
+      </div>
+    </section>
+
+    <!--ABOUT-->
+    <section class="about section bd-container" id="about">
+      <div class="about-container bd-grid">
+        <div class="about-data">
+          <span class="section-subtitle about-initial">Giới thiệu</span>
+          <h2 class="section-title about-initial">
+            Trung tâm IR Nhà Khôn có gì nổi bật?
+          </h2>
+          <p class="about-description">
+            Chỉ cần liên kết nền tảng app Gratiot với Google Assistant hoặc
+            Alexa, là chúng ta có thể điều khiển thiết bị Nhà Khôn bằng giọng
+            nói thông qua 2 nền tảng loa thông minh lớn nhất thế giới.
+          </p>
+          <a href="#" class="button">Tìm hiểu thêm</a>
         </div>
-      </nav>
-    </header>
 
-    <main>
-      <!--HOME-->
-      <section class="home" id="home">
-        <div class="home-container bd-container bd-grid">
-          <div class="home-data">
-            <h1 class="home-title">Nhà Khôn</h1>
-            <h2 class="home-subtitle">
-              Trung tâm IR Nhà Khôn. Giải pháp tiết kiệm <br />
-              Cho mọi gia đình.
-            </h2>
-            <a href="#" class="button">Đặt Hàng Ngay</a>
-          </div>
+        <img src="img/nhakhon.jpg" alt="" class="about-img" />
+      </div>
+    </section>
 
-          <img src="img/alexa2.png" alt="" class="home-img" />
+    <!--SERVICE-->
+    <section class="service section bd-container" id="service">
+      <span class="section-subtitle">Dịch vụ</span>
+      <h2 class="section-title">
+        Trung tâm IR <span style="color: #916bbf">Nhà Khôn</span> có gì nổi
+        bật?
+      </h2>
+
+      <div class="service-container bd-grid">
+        <div class="service-content">
+          <svg class="service-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1" x="0px" y="0px" viewBox="0 0 500 400" enable-background="new 0 0 500 400" xml:space="preserve"
+            preserveAspectRatio="none" width="64" height="64" fill="white">
+            <path
+              d="M159.058,262.391c0,28.608-0.018,57.215,0.006,85.823c0.018,22.003,15.823,37.923,37.832,38.004  c21.66,0.079,43.321,0.095,64.98-0.005c21.757-0.1,37.632-16.079,37.64-37.783c0.023-57.215,0.021-114.431,0.001-171.646  c-0.008-22.018-15.775-37.882-37.837-37.973c-21.524-0.089-43.048-0.079-64.572-0.004c-22.332,0.078-38.033,15.874-38.047,38.171  C159.044,205.448,159.057,233.92,159.058,262.391z M288.803,39.842c2.97-4.388,3.073-8.241-0.901-11.362  c-4.199-3.297-8.993-6.154-13.962-8.085c-11.511-4.474-23.72-5.891-35.986-6.439c-18.466-0.825-36.781,0.267-54.266,6.826  c-4.834,1.813-9.429,4.83-13.422,8.15c-3.724,3.096-3.424,6.974-0.356,10.913c6.893-6.463,15.545-9.285,24.454-11.317  c19.176-4.374,38.564-4.79,57.993-2.126C265.346,28.184,278.132,30.796,288.803,39.842z M278.601,66.144  c2.362-4.07,2.512-7.8-0.851-11.061c-3.25-3.151-7.033-6.415-11.193-7.825c-8.178-2.772-16.68-5.131-25.228-6.153  c-16.088-1.923-32.174-0.948-47.38,5.267c-4.765,1.947-9.244,5.172-13.072,8.668c-3.647,3.33-3.358,7.623-0.593,11.132  C196.358,47.173,259.886,45.775,278.601,66.144z M192.846,92.928c9.687-12.005,22.646-14.79,36.507-14.798  c13.952-0.009,26.935,2.959,36.398,14.751c2.231-5.404,1.212-10.162-2.458-13.594c-3.597-3.363-7.829-6.51-12.353-8.332  c-13.494-5.434-27.483-5.642-41.149-0.782c-5.092,1.811-9.919,5.08-14.071,8.619C191.674,82.239,190.468,87.249,192.846,92.928z   M257.291,113.497c1.789-5.572,0.043-10.121-5.851-13.958c-9.142-5.952-19.317-6.858-29.816-5.345  c-6.702,0.966-12.975,3.124-17.82,8.178c-3.535,3.688-4.185,7.294-2.243,11.201C211.044,99.721,244.455,97.396,257.291,113.497z">
+            </path>
+            <path
+              d="M159.057,262.391c0-28.472-0.014-56.943,0.004-85.415c0.014-22.296,15.715-38.093,38.047-38.171  c21.524-0.075,43.048-0.086,64.572,0.004c22.062,0.092,37.829,15.956,37.837,37.973c0.02,57.215,0.022,114.431-0.001,171.646  c-0.009,21.704-15.883,37.683-37.64,37.783c-21.66,0.1-43.32,0.084-64.98,0.005c-22.008-0.081-37.814-16.001-37.832-38.004  C159.04,319.607,159.058,290.999,159.057,262.391z">
+            </path>
+            <path
+              d="M288.803,39.842c-10.671-9.046-23.457-11.658-36.446-13.439c-19.429-2.665-38.818-2.249-57.993,2.126  c-8.909,2.032-17.561,4.854-24.454,11.317c-3.068-3.94-3.368-7.818,0.356-10.913c3.994-3.32,8.589-6.337,13.422-8.15  c17.484-6.558,35.8-7.65,54.266-6.826c12.267,0.548,24.475,1.966,35.986,6.439c4.969,1.931,9.764,4.789,13.962,8.085  C291.876,31.6,291.773,35.454,288.803,39.842z">
+            </path>
+            <path
+              d="M278.601,66.144c-18.715-20.369-82.243-18.97-98.317,0.027c-2.765-3.508-3.054-7.801,0.593-11.132  c3.828-3.496,8.307-6.721,13.072-8.668c15.206-6.214,31.292-7.19,47.38-5.267c8.548,1.022,17.05,3.38,25.228,6.153  c4.16,1.41,7.943,4.674,11.193,7.825C281.113,58.343,280.963,62.073,278.601,66.144z">
+            </path>
+            <path
+              d="M192.846,92.928c-2.378-5.679-1.172-10.689,2.872-14.136c4.152-3.538,8.979-6.808,14.071-8.619  c13.667-4.859,27.655-4.652,41.149,0.782c4.525,1.822,8.756,4.969,12.353,8.332c3.671,3.432,4.69,8.19,2.458,13.594  c-9.463-11.793-22.446-14.76-36.398-14.751C215.492,78.138,202.533,80.923,192.846,92.928z">
+            </path>
+            <path
+              d="M257.291,113.497c-12.836-16.101-46.247-13.776-55.73,0.077c-1.942-3.907-1.292-7.513,2.243-11.201  c4.845-5.055,11.118-7.212,17.82-8.178c10.499-1.514,20.674-0.607,29.816,5.345C257.334,103.376,259.08,107.925,257.291,113.497z">
+            </path>
+          </svg>
+          <h3 class="service-title">Loại bỏ tất cả Remote trong gia đình</h3>
+          <p class="service-description">
+            Với khả năng học lệnh của hàng trăm thương hiệu đồ gia dụng trên
+            thế giới, Nhà Khôn có thể giúp loại bỏ hàng chục chiếc Remote đủ
+            kiểu trong gia đình.
+          </p>
         </div>
-      </section>
 
-      <!--ABOUT-->
-      <section class="about section bd-container" id="about">
-        <div class="about-container bd-grid">
-          <div class="about-data">
-            <span class="section-subtitle about-initial">Giới thiệu</span>
-            <h2 class="section-title about-initial">
-              Trung tâm IR Nhà Khôn có gì nổi bật?
-            </h2>
-            <p class="about-description">
-              Chỉ cần liên kết nền tảng app Gratiot với Google Assistant hoặc
-              Alexa, là chúng ta có thể điều khiển thiết bị Nhà Khôn bằng giọng
-              nói thông qua 2 nền tảng loa thông minh lớn nhất thế giới.
-            </p>
-            <a href="#" class="button">Tìm hiểu thêm</a>
-          </div>
-
-          <img src="img/nhakhon.jpg" alt="" class="about-img" />
+        <div class="service-content">
+          <svg class="service-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"
+            preserveAspectRatio="none" width="64" height="64" fill="white">
+            <path
+              d="M46.185,38.177c-0.492-0.227-0.81-0.726-0.81-1.274v-7.526v-9.784c0-1.807-1.376-3.279-3.064-3.279  c-1.69,0-3.066,1.473-3.066,3.279v9.784c0,0.001,0,0.001,0,0.001l-0.001,7.527c0,0.548-0.315,1.047-0.81,1.273  c-3.224,1.505-5.307,4.774-5.307,8.328c0,5.064,4.121,9.182,9.184,9.182c5.061,0,9.183-4.117,9.183-9.182  C51.493,42.951,49.409,39.682,46.185,38.177z M42.311,53.8c-4.031,0-7.295-3.268-7.295-7.294c0-3.544,2.533-6.499,5.889-7.153  V27.408c0-0.776,0.628-1.406,1.406-1.406c0.777,0,1.406,0.63,1.406,1.406v11.944c3.353,0.654,5.889,3.609,5.889,7.153  C49.605,50.532,46.337,53.8,42.311,53.8z">
+            </path>
+            <path
+              d="M89.867,52.643c-2.574-4.778-8.608-8.085-8.608-13.921c0-3.043,2.062-4.018,2.062-7.471c0-3.447-0.313-7.135-3.063-11.068  C75.952,14.016,66.843,5,46.639,5C22.345,5,2.034,23.17,12.535,51.445c3.586,10.281,12.887,14.521,12.887,20.584  c0,2.639-0.701,7.324-2.586,11.785c-2.45,5.791-3.415,7.641-3.415,7.641C18.403,93.404,19.37,95,21.57,95h39.25h0.482  c1.532-1.912,0.238-8.15,0.238-8.15c-0.559-2.692,1.225-4.668,3.959-4.393c0,0,1.777,0.182,6.896,0.787  c3.277,0.381,6.484,0.41,8.563-0.742c5.328-2.936,0.095-8.182,0.095-10.008c0-1.832,3.771-1.752,3.771-3.773  c0-2.018-3.547-1.104-3.59-2.389c-0.045-1.287,4.877-0.281,4.877-2.303c0-2.021-2.023-2.451-2.023-4.705  c0-1.742,4.844-2.08,5.95-4.301C90.371,54.367,90.453,53.73,89.867,52.643z M42.311,58.5c-6.614,0-11.996-5.383-11.996-11.994  c0-4.334,2.373-8.347,6.116-10.457l0.001-6.673v-9.784c0-3.357,2.637-6.092,5.879-6.092c3.241,0,5.877,2.734,5.877,6.092v9.784  v6.672c3.746,2.109,6.119,6.122,6.119,10.458C54.307,53.117,48.923,58.5,42.311,58.5z M58.325,36.933h-4.214  c-0.775,0-1.406-0.631-1.406-1.406c0-0.778,0.631-1.406,1.406-1.406h4.214c0.774,0,1.405,0.628,1.405,1.406  C59.73,36.302,59.102,36.933,58.325,36.933z M60.68,31.442h-6.568c-0.774,0-1.405-0.631-1.405-1.406  c0-0.779,0.631-1.406,1.405-1.406h6.568c0.776,0,1.406,0.627,1.406,1.406C62.086,30.812,61.456,31.442,60.68,31.442z M60.68,25.954  h-6.568c-0.774,0-1.405-0.632-1.405-1.406c0-0.78,0.631-1.406,1.405-1.406h6.568c0.776,0,1.406,0.626,1.406,1.406  C62.086,25.322,61.456,25.954,60.68,25.954z M60.68,20.464h-6.568c-0.774,0-1.405-0.632-1.405-1.406c0-0.78,0.631-1.406,1.405-1.406  h6.568c0.776,0,1.406,0.626,1.406,1.406C62.086,19.832,61.456,20.464,60.68,20.464z">
+            </path>
+          </svg>
+          <h3 class="service-title">
+            Kiểm soát nhiệt độ phòng ở mức thoải mái nhất
+          </h3>
+          <p class="service-description">
+            Sử dụng trí tuệ nhân tạo để tự động điều chỉnh nhiệt độ của điều
+            hòa để đảm bảo nhiệt độ trong phòng luôn nằm ở mức thoải mái nhất.
+          </p>
         </div>
-      </section>
 
-      <!--SERVICE-->
-      <section class="service section bd-container" id="service">
-        <span class="section-subtitle">Dịch vụ</span>
-        <h2 class="section-title">
-          Trung tâm IR <span style="color: #916bbf">Nhà Khôn</span> có gì nổi
-          bật?
-        </h2>
-
-        <div class="service-container bd-grid">
-          <div class="service-content">
-            <svg
-              class="service-img"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 500 400"
-              enable-background="new 0 0 500 400"
-              xml:space="preserve"
-              preserveAspectRatio="none"
-              width="64"
-              height="64"
-              fill="white"
-            >
-              <path
-                d="M159.058,262.391c0,28.608-0.018,57.215,0.006,85.823c0.018,22.003,15.823,37.923,37.832,38.004  c21.66,0.079,43.321,0.095,64.98-0.005c21.757-0.1,37.632-16.079,37.64-37.783c0.023-57.215,0.021-114.431,0.001-171.646  c-0.008-22.018-15.775-37.882-37.837-37.973c-21.524-0.089-43.048-0.079-64.572-0.004c-22.332,0.078-38.033,15.874-38.047,38.171  C159.044,205.448,159.057,233.92,159.058,262.391z M288.803,39.842c2.97-4.388,3.073-8.241-0.901-11.362  c-4.199-3.297-8.993-6.154-13.962-8.085c-11.511-4.474-23.72-5.891-35.986-6.439c-18.466-0.825-36.781,0.267-54.266,6.826  c-4.834,1.813-9.429,4.83-13.422,8.15c-3.724,3.096-3.424,6.974-0.356,10.913c6.893-6.463,15.545-9.285,24.454-11.317  c19.176-4.374,38.564-4.79,57.993-2.126C265.346,28.184,278.132,30.796,288.803,39.842z M278.601,66.144  c2.362-4.07,2.512-7.8-0.851-11.061c-3.25-3.151-7.033-6.415-11.193-7.825c-8.178-2.772-16.68-5.131-25.228-6.153  c-16.088-1.923-32.174-0.948-47.38,5.267c-4.765,1.947-9.244,5.172-13.072,8.668c-3.647,3.33-3.358,7.623-0.593,11.132  C196.358,47.173,259.886,45.775,278.601,66.144z M192.846,92.928c9.687-12.005,22.646-14.79,36.507-14.798  c13.952-0.009,26.935,2.959,36.398,14.751c2.231-5.404,1.212-10.162-2.458-13.594c-3.597-3.363-7.829-6.51-12.353-8.332  c-13.494-5.434-27.483-5.642-41.149-0.782c-5.092,1.811-9.919,5.08-14.071,8.619C191.674,82.239,190.468,87.249,192.846,92.928z   M257.291,113.497c1.789-5.572,0.043-10.121-5.851-13.958c-9.142-5.952-19.317-6.858-29.816-5.345  c-6.702,0.966-12.975,3.124-17.82,8.178c-3.535,3.688-4.185,7.294-2.243,11.201C211.044,99.721,244.455,97.396,257.291,113.497z"
-              ></path>
-              <path
-                d="M159.057,262.391c0-28.472-0.014-56.943,0.004-85.415c0.014-22.296,15.715-38.093,38.047-38.171  c21.524-0.075,43.048-0.086,64.572,0.004c22.062,0.092,37.829,15.956,37.837,37.973c0.02,57.215,0.022,114.431-0.001,171.646  c-0.009,21.704-15.883,37.683-37.64,37.783c-21.66,0.1-43.32,0.084-64.98,0.005c-22.008-0.081-37.814-16.001-37.832-38.004  C159.04,319.607,159.058,290.999,159.057,262.391z"
-              ></path>
-              <path
-                d="M288.803,39.842c-10.671-9.046-23.457-11.658-36.446-13.439c-19.429-2.665-38.818-2.249-57.993,2.126  c-8.909,2.032-17.561,4.854-24.454,11.317c-3.068-3.94-3.368-7.818,0.356-10.913c3.994-3.32,8.589-6.337,13.422-8.15  c17.484-6.558,35.8-7.65,54.266-6.826c12.267,0.548,24.475,1.966,35.986,6.439c4.969,1.931,9.764,4.789,13.962,8.085  C291.876,31.6,291.773,35.454,288.803,39.842z"
-              ></path>
-              <path
-                d="M278.601,66.144c-18.715-20.369-82.243-18.97-98.317,0.027c-2.765-3.508-3.054-7.801,0.593-11.132  c3.828-3.496,8.307-6.721,13.072-8.668c15.206-6.214,31.292-7.19,47.38-5.267c8.548,1.022,17.05,3.38,25.228,6.153  c4.16,1.41,7.943,4.674,11.193,7.825C281.113,58.343,280.963,62.073,278.601,66.144z"
-              ></path>
-              <path
-                d="M192.846,92.928c-2.378-5.679-1.172-10.689,2.872-14.136c4.152-3.538,8.979-6.808,14.071-8.619  c13.667-4.859,27.655-4.652,41.149,0.782c4.525,1.822,8.756,4.969,12.353,8.332c3.671,3.432,4.69,8.19,2.458,13.594  c-9.463-11.793-22.446-14.76-36.398-14.751C215.492,78.138,202.533,80.923,192.846,92.928z"
-              ></path>
-              <path
-                d="M257.291,113.497c-12.836-16.101-46.247-13.776-55.73,0.077c-1.942-3.907-1.292-7.513,2.243-11.201  c4.845-5.055,11.118-7.212,17.82-8.178c10.499-1.514,20.674-0.607,29.816,5.345C257.334,103.376,259.08,107.925,257.291,113.497z"
-              ></path>
-            </svg>
-            <h3 class="service-title">Loại bỏ tất cả Remote trong gia đình</h3>
-            <p class="service-description">
-              Với khả năng học lệnh của hàng trăm thương hiệu đồ gia dụng trên
-              thế giới, Nhà Khôn có thể giúp loại bỏ hàng chục chiếc Remote đủ
-              kiểu trong gia đình.
-            </p>
-          </div>
-
-          <div class="service-content">
-            <svg
-              class="service-img"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 100 100"
-              enable-background="new 0 0 100 100"
-              xml:space="preserve"
-              preserveAspectRatio="none"
-              width="64"
-              height="64"
-              fill="white"
-            >
-              <path
-                d="M46.185,38.177c-0.492-0.227-0.81-0.726-0.81-1.274v-7.526v-9.784c0-1.807-1.376-3.279-3.064-3.279  c-1.69,0-3.066,1.473-3.066,3.279v9.784c0,0.001,0,0.001,0,0.001l-0.001,7.527c0,0.548-0.315,1.047-0.81,1.273  c-3.224,1.505-5.307,4.774-5.307,8.328c0,5.064,4.121,9.182,9.184,9.182c5.061,0,9.183-4.117,9.183-9.182  C51.493,42.951,49.409,39.682,46.185,38.177z M42.311,53.8c-4.031,0-7.295-3.268-7.295-7.294c0-3.544,2.533-6.499,5.889-7.153  V27.408c0-0.776,0.628-1.406,1.406-1.406c0.777,0,1.406,0.63,1.406,1.406v11.944c3.353,0.654,5.889,3.609,5.889,7.153  C49.605,50.532,46.337,53.8,42.311,53.8z"
-              ></path>
-              <path
-                d="M89.867,52.643c-2.574-4.778-8.608-8.085-8.608-13.921c0-3.043,2.062-4.018,2.062-7.471c0-3.447-0.313-7.135-3.063-11.068  C75.952,14.016,66.843,5,46.639,5C22.345,5,2.034,23.17,12.535,51.445c3.586,10.281,12.887,14.521,12.887,20.584  c0,2.639-0.701,7.324-2.586,11.785c-2.45,5.791-3.415,7.641-3.415,7.641C18.403,93.404,19.37,95,21.57,95h39.25h0.482  c1.532-1.912,0.238-8.15,0.238-8.15c-0.559-2.692,1.225-4.668,3.959-4.393c0,0,1.777,0.182,6.896,0.787  c3.277,0.381,6.484,0.41,8.563-0.742c5.328-2.936,0.095-8.182,0.095-10.008c0-1.832,3.771-1.752,3.771-3.773  c0-2.018-3.547-1.104-3.59-2.389c-0.045-1.287,4.877-0.281,4.877-2.303c0-2.021-2.023-2.451-2.023-4.705  c0-1.742,4.844-2.08,5.95-4.301C90.371,54.367,90.453,53.73,89.867,52.643z M42.311,58.5c-6.614,0-11.996-5.383-11.996-11.994  c0-4.334,2.373-8.347,6.116-10.457l0.001-6.673v-9.784c0-3.357,2.637-6.092,5.879-6.092c3.241,0,5.877,2.734,5.877,6.092v9.784  v6.672c3.746,2.109,6.119,6.122,6.119,10.458C54.307,53.117,48.923,58.5,42.311,58.5z M58.325,36.933h-4.214  c-0.775,0-1.406-0.631-1.406-1.406c0-0.778,0.631-1.406,1.406-1.406h4.214c0.774,0,1.405,0.628,1.405,1.406  C59.73,36.302,59.102,36.933,58.325,36.933z M60.68,31.442h-6.568c-0.774,0-1.405-0.631-1.405-1.406  c0-0.779,0.631-1.406,1.405-1.406h6.568c0.776,0,1.406,0.627,1.406,1.406C62.086,30.812,61.456,31.442,60.68,31.442z M60.68,25.954  h-6.568c-0.774,0-1.405-0.632-1.405-1.406c0-0.78,0.631-1.406,1.405-1.406h6.568c0.776,0,1.406,0.626,1.406,1.406  C62.086,25.322,61.456,25.954,60.68,25.954z M60.68,20.464h-6.568c-0.774,0-1.405-0.632-1.405-1.406c0-0.78,0.631-1.406,1.405-1.406  h6.568c0.776,0,1.406,0.626,1.406,1.406C62.086,19.832,61.456,20.464,60.68,20.464z"
-              ></path>
-            </svg>
-            <h3 class="service-title">
-              Kiểm soát nhiệt độ phòng ở mức thoải mái nhất
-            </h3>
-            <p class="service-description">
-              Sử dụng trí tuệ nhân tạo để tự động điều chỉnh nhiệt độ của điều
-              hòa để đảm bảo nhiệt độ trong phòng luôn nằm ở mức thoải mái nhất.
-            </p>
-          </div>
-
-          <div class="service-content">
-            <svg
-              class="service-img"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              version="1.1"
-              x="0px"
-              y="0px"
-              viewBox="0 0 100 100"
-              enable-background="new 0 0 100 100"
-              xml:space="preserve"
-              preserveAspectRatio="none"
-              width="64"
-              height="64"
-              fill="white"
-            >
+        <div class="service-content">
+          <svg class="service-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"
+            preserveAspectRatio="none" width="64" height="64" fill="white">
+            <g>
               <g>
-                <g>
-                  <path
-                    d="M84.276,49.219h-4.087V30.189v-1.55c0-0.109-0.041-0.203-0.063-0.311    c-0.013-0.193-0.033-0.384-0.049-0.574c-0.435-5.47-2.325-10.524-5.286-14.782C71.532,8.283,66.978,4.57,61.648,2.336    c-1.817-0.76-3.721-1.354-5.696-1.746C54.026,0.204,52.038,0,50,0c-1.324,0-2.628,0.09-3.909,0.252    c-3.443,0.447-6.707,1.477-9.688,2.986c-9.317,4.71-15.862,14.104-16.53,25.091c-0.021,0.107-0.064,0.201-0.064,0.311v1.55v12.314    h3.973h5.257h3.985h0.281l-0.022-3.505h-0.737h-5.973c0-3.451,2.61-6.293,5.963-6.664c0.244-0.028,0.493-0.046,0.747-0.046    l0.022-2.948c0-1.397,0.191-2.745,0.514-4.046c0.163-0.58,0.343-1.154,0.531-1.729C36.702,17.194,42.812,12.646,50,12.646    c9.221,0,16.696,7.475,16.696,16.695v19.878H50H34.915h-9.645h-9.552c-0.772,0-1.398,0.628-1.398,1.396v8.006v20.943v11.035v6.959    v1.048c0,0.536,0.306,0.996,0.753,1.232c0.193,0.099,0.406,0.162,0.641,0.162h13.465H50h34.284c0.772,0,1.396-0.633,1.396-1.395    v-8.007V79.82v-2.725v-7.028v-1.275V58.62v-8.006C85.68,49.847,85.054,49.219,84.276,49.219z M54.758,85.379h-0.033v0.043    c-0.002,2.106-2.233,3.812-4.72,3.812c-2.485-0.003-4.717-1.706-4.722-3.812v-0.063h0.035v-0.298v-9.432    c-0.496-0.323-0.969-0.696-1.403-1.131c0-0.005-0.005-0.005-0.005-0.008c-3.283-3.281-3.354-8.55-0.233-11.928    c0.078-0.084,0.149-0.17,0.233-0.257c3.362-3.362,8.814-3.362,12.18,0c2.46,2.46,3.113,6.039,1.975,9.099    c-0.419,1.124-1.07,2.181-1.975,3.086c-0.412,0.417-0.859,0.777-1.332,1.088v4.341v1.337V85.379z"
-                  ></path>
-                </g>
+                <path
+                  d="M84.276,49.219h-4.087V30.189v-1.55c0-0.109-0.041-0.203-0.063-0.311    c-0.013-0.193-0.033-0.384-0.049-0.574c-0.435-5.47-2.325-10.524-5.286-14.782C71.532,8.283,66.978,4.57,61.648,2.336    c-1.817-0.76-3.721-1.354-5.696-1.746C54.026,0.204,52.038,0,50,0c-1.324,0-2.628,0.09-3.909,0.252    c-3.443,0.447-6.707,1.477-9.688,2.986c-9.317,4.71-15.862,14.104-16.53,25.091c-0.021,0.107-0.064,0.201-0.064,0.311v1.55v12.314    h3.973h5.257h3.985h0.281l-0.022-3.505h-0.737h-5.973c0-3.451,2.61-6.293,5.963-6.664c0.244-0.028,0.493-0.046,0.747-0.046    l0.022-2.948c0-1.397,0.191-2.745,0.514-4.046c0.163-0.58,0.343-1.154,0.531-1.729C36.702,17.194,42.812,12.646,50,12.646    c9.221,0,16.696,7.475,16.696,16.695v19.878H50H34.915h-9.645h-9.552c-0.772,0-1.398,0.628-1.398,1.396v8.006v20.943v11.035v6.959    v1.048c0,0.536,0.306,0.996,0.753,1.232c0.193,0.099,0.406,0.162,0.641,0.162h13.465H50h34.284c0.772,0,1.396-0.633,1.396-1.395    v-8.007V79.82v-2.725v-7.028v-1.275V58.62v-8.006C85.68,49.847,85.054,49.219,84.276,49.219z M54.758,85.379h-0.033v0.043    c-0.002,2.106-2.233,3.812-4.72,3.812c-2.485-0.003-4.717-1.706-4.722-3.812v-0.063h0.035v-0.298v-9.432    c-0.496-0.323-0.969-0.696-1.403-1.131c0-0.005-0.005-0.005-0.005-0.008c-3.283-3.281-3.354-8.55-0.233-11.928    c0.078-0.084,0.149-0.17,0.233-0.257c3.362-3.362,8.814-3.362,12.18,0c2.46,2.46,3.113,6.039,1.975,9.099    c-0.419,1.124-1.07,2.181-1.975,3.086c-0.412,0.417-0.859,0.777-1.332,1.088v4.341v1.337V85.379z">
+                </path>
               </g>
-            </svg>
-            <h3 class="service-title">An toàn hơn với server Việt Nam</h3>
-            <p class="service-description">
-              Là nền tảng do người Việt phát triển 100%. Do đó mọi dữ liệu điều
-              khiển đều nằm ở VN. Giảm nguy cơ rò rỉ dữ liệu người dùng đến mức
-              tối đa.
-            </p>
-          </div>
+            </g>
+          </svg>
+          <h3 class="service-title">An toàn hơn với server Việt Nam</h3>
+          <p class="service-description">
+            Là nền tảng do người Việt phát triển 100%. Do đó mọi dữ liệu điều
+            khiển đều nằm ở VN. Giảm nguy cơ rò rỉ dữ liệu người dùng đến mức
+            tối đa.
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--PRICE-->
-      <section class="price section bd-container" id="price">
-        <span class="section-subtitle">Bảng giá</span>
-        <h2 class="section-title">
-          Các sản phẩm của <span style="color: #916bbf">Nhà Khôn</span>
-        </h2>
+    <!--PRICE-->
+    <section class="price section bd-container" id="price">
+      <span class="section-subtitle">Bảng giá</span>
+      <h2 class="section-title">
+        Các sản phẩm của <span style="color: #916bbf">Nhà Khôn</span>
+      </h2>
 
-        <div class="price-container bd-grid">
-          <div class="price-content">
-            <img src="img/alexa2.png" alt="" class="price-img" />
-            <h3 class="price-name">Trung tâm IR ver 1.0</h3>
-            <span class="price-detail"
-              >Mẫu trung tâm IR thế hệ 1, giúp thay thế toàn bộ remote hồng
-              ngoại trong phòng. tích hợp thêm thiết bị camera IP vào nền tảng
-              Gratiot.</span
-            >
-            <span class="price-preci">450.000₫</span>
-            <a href="#" class="button price-button"
-              ><i class="bx bx-cart-alt"></i
-            ></a>
-          </div>
-
-          <div class="price-content">
-            <img src="img/alexa2.png" alt="" class="price-img" />
-            <h3 class="price-name">Trung tâm IR ver 2.0</h3>
-            <span class="price-detail"
-              >Kế thừa thế hệ 1 nhưng bổ sung thêm thuật toán dùng AI để điều
-              khiển điều hòa trong phòng. Giúp duy trì nhiệt độ lý tưởng.</span
-            >
-            <span class="price-preci">685.000₫</span>
-            <a href="#" class="button price-button"
-              ><i class="bx bx-cart-alt"></i
-            ></a>
-          </div>
-
-          <div class="price-content">
-            <img src="img/alexa2.png" alt="" class="price-img" />
-            <h3 class="price-name">Trung tâm điều khiển Zigbee</h3>
-            <span class="price-detail"
-              >Trung tâm điều khiển dùng sóng zigbee tiết kiệm điện. Liên kết
-              được với cả devices của các hãng khác.</span
-            >
-            <span class="price-preci">1.685.000₫</span>
-            <a href="#" class="button price-button"
-              ><i class="bx bx-cart-alt"></i
-            ></a>
-          </div>
-
-          <div class="price-content">
-            <img src="img/alexa2.png" alt="" class="price-img" />
-            <h3 class="price-name">Trung tâm điều khiển Zigbee</h3>
-            <span class="price-detail"
-              >Trung tâm điều khiển dùng sóng zigbee tiết kiệm điện. Liên kết
-              được với cả devices của các hãng khác.</span
-            >
-            <span class="price-preci">1.685.000₫</span>
-            <a href="#" class="button price-button"
-              ><i class="bx bx-cart-alt"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <!--CONTACT-->
-      <section class="contact section bd-container" id="contact">
-        <div class="contact-container bd-grid">
-          <div class="contact-data">
-            <span class="section-subtitle contact-initial">Liên hệ</span>
-            <h2 class="section-title contact-initial">
-              Chúng tôi tôn trọng ý kiến từ người dùng!
-            </h2>
-            <p class="contact-description">
-              Chúng tôi biết sản phẩm của mình vẫn còn nhiều khiếm khuyết, do đó
-              chúng tôi luôn trân trọng những ý kiến, góp ý từ người dùng để
-              khắc phục và tối ưu sản phẩm của mình. <br />Đừng ngần ngại mà hãy
-              liên hệ ngay với chúng tôi nếu có vướng mắc trong quá trình sử
-              dụng.
-            </p>
-          </div>
-
-          <div class="contact-button">
-            <a href="#" class="button">Liên hệ ngay</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer section bd-container">
-      <div class="footer-container bd-grid">
-        <div class="footer-content">
-          <a href="#" class="footer-logo">Nhà khôn</a>
-          <span class="footer-desc">Đồ án Thiết Kế Web 20C1-LTM1</span>
-          <div>
-            <a href="#" class="footer-social"
-              ><i class="bx bxl-facebook"></i
-            ></a>
-            <a href="#" class="footer-social"
-              ><i class="bx bxl-messenger"></i
-            ></a>
-            <a href="https://github.com/Nemsu/DoAn_TKW" class="footer-social"><i class="bx bxl-github"></i></a>
-          </div>
+      <div class="price-container bd-grid">
+        <div class="price-content">
+          <img src="img/alexa2.png" alt="" class="price-img" />
+          <h3 class="price-name">Trung tâm IR ver 1.0</h3>
+          <span class="price-detail">Mẫu trung tâm IR thế hệ 1, giúp thay thế toàn bộ remote hồng
+            ngoại trong phòng. tích hợp thêm thiết bị camera IP vào nền tảng
+            Gratiot.</span>
+          <span class="price-preci">450.000₫</span>
+          <a href="#" class="button price-button"><i class="bx bx-cart-alt"></i></a>
         </div>
 
-        <div class="footer-content">
-          <h3 class="footer-title">Thành viên</h3>
-          <ul>
-            <li><a href="https://www.facebook.com/neimsu/" class="footer-link">Hồ Hoàng Nam</a></li>
-            <li><a href="https://www.facebook.com/trungkienBP102" class="footer-link">Nguyễn Phan Trung Kiên</a></li>
-            <li><a href="https://www.facebook.com/tatca.tungla.161" class="footer-link">Nguyễn Huỳnh Nhật Hoàng</a></li>
-          </ul>
+        <div class="price-content">
+          <img src="img/alexa2.png" alt="" class="price-img" />
+          <h3 class="price-name">Trung tâm IR ver 2.0</h3>
+          <span class="price-detail">Kế thừa thế hệ 1 nhưng bổ sung thêm thuật toán dùng AI để điều
+            khiển điều hòa trong phòng. Giúp duy trì nhiệt độ lý tưởng.</span>
+          <span class="price-preci">685.000₫</span>
+          <a href="#" class="button price-button"><i class="bx bx-cart-alt"></i></a>
         </div>
 
-        <div class="footer-content">
-          <h3 class="footer-title">MSSV</h3>
-          <ul>
-            <li><p class="footer-text">20004894</a></li>
-            <li><p class="footer-text">20004664</a></li>
-            <li><p class="footer-text">20004142</a></li>
-          </ul>
+        <div class="price-content">
+          <img src="img/alexa2.png" alt="" class="price-img" />
+          <h3 class="price-name">Trung tâm điều khiển Zigbee</h3>
+          <span class="price-detail">Trung tâm điều khiển dùng sóng zigbee tiết kiệm điện. Liên kết
+            được với cả devices của các hãng khác.</span>
+          <span class="price-preci">1.685.000₫</span>
+          <a href="#" class="button price-button"><i class="bx bx-cart-alt"></i></a>
         </div>
 
-        <div class="footer-content">
-          <h3 class="footer-title">Vai trò</h3>
-          <ul>
-            <li><p class="footer-text">Dev</a></li>
-            <li><p class="footer-text">Nhập liệu & In ấn</a></li>
-            <li><p class="footer-text">Soạn thảo</a></li>
-          </ul>
+        <div class="price-content">
+          <img src="img/alexa2.png" alt="" class="price-img" />
+          <h3 class="price-name">Công tắc bật PC TTGStark</h3>
+          <span class="price-detail">Một sản phẩm phát triển kết hợp với nhóm Streamer Trực Tiếp Game và tích hợp thêm vào nền tảng Gratiot</span>
+          <span class="price-preci">850.000₫</span>
+          <a href="#" class="button price-button"><i class="bx bx-cart-alt"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <section class="contact section bd-container" id="contact">
+      <div class="contact-container bd-grid">
+        <div class="contact-data">
+          <span class="section-subtitle contact-initial">Liên hệ</span>
+          <h2 class="section-title contact-initial">
+            Chúng tôi tôn trọng ý kiến từ người dùng!
+          </h2>
+          <p class="contact-description">
+            Chúng tôi biết sản phẩm của mình vẫn còn nhiều khiếm khuyết, do đó
+            chúng tôi luôn trân trọng những ý kiến, góp ý từ người dùng để
+            khắc phục và tối ưu sản phẩm của mình. <br />Đừng ngần ngại mà hãy
+            liên hệ ngay với chúng tôi nếu có vướng mắc trong quá trình sử
+            dụng.
+          </p>
+        </div>
+
+        <div class="contact-button">
+          <a href="#" class="button">Liên hệ ngay</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section bd-container">
+    <div class="footer-container bd-grid">
+      <div class="footer-content">
+        <a href="#" class="footer-logo">Nhà khôn</a>
+        <span class="footer-desc">Đồ án Thiết Kế Web 20C1-LTM1</span>
+        <div>
+          <a href="#" class="footer-social"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="footer-social"><i class="bx bxl-messenger"></i></a>
+          <a href="https://github.com/Nemsu/DoAn_TKW" class="footer-social"><i class="bx bxl-github"></i></a>
         </div>
       </div>
 
-      <p class="footer-cpr">&#169; LTTC 2022</p>
-    </footer>
+      <div class="footer-content">
+        <h3 class="footer-title">Thành viên</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/neimsu/" class="footer-link">Hồ Hoàng Nam</a></li>
+          <li><a href="https://www.facebook.com/trungkienBP102" class="footer-link">Nguyễn Phan Trung Kiên</a></li>
+          <li><a href="https://www.facebook.com/tatca.tungla.161" class="footer-link">Nguyễn Huỳnh Nhật Hoàng</a></li>
+        </ul>
+      </div>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="js/script.js"></script>
-  </body>
+      <div class="footer-content">
+        <h3 class="footer-title">MSSV</h3>
+        <ul>
+          <li>
+            <p class="footer-text">20004894</a>
+          </li>
+          <li>
+            <p class="footer-text">20004664</a>
+          </li>
+          <li>
+            <p class="footer-text">20004142</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h3 class="footer-title">Vai trò</h3>
+        <ul>
+          <li>
+            <p class="footer-text">Dev</a>
+          </li>
+          <li>
+            <p class="footer-text">Nhập liệu & In ấn</a>
+          </li>
+          <li>
+            <p class="footer-text">Soạn thảo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-cpr">&#169; LTTC 2022</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
