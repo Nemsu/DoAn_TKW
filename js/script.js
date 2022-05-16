@@ -2,7 +2,6 @@
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "bx-sun";
-
 const getCurrentTheme = () =>
   document.body.classList.contains(darkTheme) ? "dark" : "light";
 const getCurrentIcon = () =>
@@ -28,6 +27,6 @@ scroll_ef.reveal(
             .contact-data, .contact-button,
             .footer-content`,
   {
-    interval: 200,
+    interval: 100,
   }
 );

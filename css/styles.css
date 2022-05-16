@@ -2,8 +2,7 @@
 
 :root {
   --header-height: 3rem;
-
-  /*Màu*/
+  /*Color var*/
   --first-color: #916bbf;
   --first-color-click: #3d2c8d;
   --title-color: #393939;
@@ -11,50 +10,25 @@
   --text-color-light: #a6a6a6;
   --body-color: #fbfefd;
   --container-color: #ffffff;
-
-  /*Font css*/
+  /*Font size var*/
   --body-font: "Poppins", sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --to-to-font-size: 2.25rem;
-  --to-font-size: 0.9rem;
-  --vua-font-size: 0.8rem;
-  --nho-font-size: 0.7rem;
-
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --to-to-font-size: 4rem;
+  --to-font-size: 1rem;
+  --vua-font-size: 0.85rem;
+  --nho-font-size: 0.8rem;
+  /*Font weight var*/
   --font-nor: 500;
   --font-semi-bold: 600;
-
-  /*Margin*/
+  /*Margin var*/
   --mg-1: 0.5rem;
   --mg-2: 1rem;
   --mg-3: 1.5rem;
   --mg-4: 2rem;
   --mg-5: 2.5rem;
   --mg-6: 3rem;
-}
-
-/*Upscale font size Respónive*/
-@media screen and (min-width: 768px) {
-  :root {
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --to-to-font-size: 4rem;
-    --to-font-size: 1rem;
-    --vua-font-size: 0.85rem;
-    --nho-font-size: 0.8rem;
-  }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-*,
-::before,
-::after {
-  box-sizing: border-box;
 }
 
 /*Var Dark theme*/
@@ -65,7 +39,11 @@ body.dark-theme {
   --container-color: #3f3351;
 }
 
-/*Btn change theme*/
+/*Fix hard header click animation*/
+html {
+  scroll-behavior: smooth;
+}
+
 .change-theme {
   font-size: var(--h2-font-size);
   cursor: pointer;
@@ -80,19 +58,12 @@ body {
   line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-}
-
 ul {
   padding: 0;
   list-style: none;
 }
 
+/*Fix underlined*/
 a {
   text-decoration: none;
 }
@@ -100,10 +71,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.section {
-  padding: 4rem 0 2rem;
 }
 
 .section-title,
@@ -124,11 +91,16 @@ img {
   margin-bottom: var(--mg-1);
 }
 
+/*Fix page not blank*/
+.section {
+  padding: 4rem 0 2rem;
+}
+
 .bd-container {
   max-width: 960px;
   width: calc(100% - 2rem);
-  margin-left: var(--mg-2);
-  margin-right: var(--mg-2);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bd-grid {
@@ -136,7 +108,7 @@ img {
   gap: 1.5rem;
 }
 
-.l-header {
+.header {
   width: 100%;
   position: fixed;
   top: 0;
@@ -154,17 +126,9 @@ img {
   align-items: center;
 }
 
-/*Xoa Nav MB*/
-@media screen and (max-width: 768px) {
-  .nav-menu {
-    position: fixed;
-    top: -100%;
-  }
-}
-
 .nav-link,
 .nav-logo,
-.nav-toggle {
+.nav-mb {
   color: var(--text-color);
   font-weight: var(--font-nor);
 }
@@ -173,29 +137,17 @@ img {
   color: var(--first-color);
 }
 
-.nav-link {
-  transition: 0.3s;
-}
-
 .nav-link:hover {
   color: var(--first-color);
 }
 
-.nav-toggle {
+.nav-mb {
   font-size: 1.3rem;
   cursor: pointer;
 }
 
-.show-price {
-  top: var(--header-height);
-}
-
 .active-link {
   color: var(--first-color);
-}
-
-.scroll-header {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .home-container {
@@ -216,7 +168,7 @@ img {
 }
 
 .home-img {
-  width: 300px;
+  width: 500px;
   justify-self: center;
 }
 
@@ -273,7 +225,6 @@ img {
   padding: 0 1.5rem;
 }
 
-/*========== price ==========*/
 .price-container {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -296,7 +247,7 @@ img {
 }
 
 .price-name,
-.price-preci {
+.price-vnd {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
@@ -306,7 +257,7 @@ img {
 }
 
 .price-detail,
-.price-preci {
+.price-vnd {
   font-size: var(--vua-font-size);
 }
 
@@ -383,14 +334,28 @@ img {
   margin-top: 3.5rem;
 }
 
-/*Pic css*/
-@media screen and (min-width: 576px) {
+/*Fix font mb too big*/
+@media screen and (max-width: 768px) {
+  :root {
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --to-to-font-size: 2.25rem;
+    --to-font-size: 0.9rem;
+    --vua-font-size: 0.8rem;
+    --nho-font-size: 0.7rem;
+  }
+}
+
+/*Res pc*/
+@media screen and (min-width: 768px) {
 
   .home-container,
   .about-container,
   .app-container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    column-gap: 7rem;
   }
 
   .about-data,
@@ -416,9 +381,7 @@ img {
   .contact-button {
     justify-self: center;
   }
-}
 
-@media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -440,7 +403,7 @@ img {
     margin-bottom: 0;
   }
 
-  .nav-toggle {
+  .nav-mb {
     display: none;
   }
 
@@ -452,6 +415,8 @@ img {
   .home-container {
     height: 100vh;
     justify-items: center;
+    margin-left: var(--mg-6);
+    margin-right: var(--mg-6);
   }
 
   .service-container,
@@ -477,24 +442,10 @@ img {
   }
 }
 
-@media screen and (min-width: 960px) {
-  .bd-container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .home-img {
-    width: 500px;
-  }
-
-  .about-container,
-  .app-container {
-    column-gap: 7rem;
-  }
-}
-
-@media screen and (min-height: 721px) {
-  .home-container {
-    height: 640px;
+/*Xoa Nav mb*/
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    top: -100%;
   }
 }
