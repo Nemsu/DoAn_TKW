@@ -27,6 +27,6 @@ scroll_ef.reveal(
             .contact-data, .contact-button,
             .footer-content`,
   {
-    interval: 100,
+    interval: 70,
   }
 );
